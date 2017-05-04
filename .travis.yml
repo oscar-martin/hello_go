@@ -1,0 +1,5 @@
+language: go
+go: 
+   - 1.7.5
+script:
+   - go build -v hello_go
