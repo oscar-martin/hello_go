@@ -1,3 +1,5 @@
 language: go
 go: 
    - 1.7.5
+script:
+   go test -v github/oscar-martin/src/hello_go
